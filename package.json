@@ -1,50 +1,50 @@
 {
-  "name": "objection-cursor",
-  "version": "1.0.0",
-  "description": "Cursor based pagination plugin for Objection.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "lint": "eslint --fix \"index.js\" \"serialize.js\" \"test/**/*.js\"",
-    "release": "standard-version",
-    "prerelease": "standard-version --prerelease alpha"
-  },
-  "engines": {
-    "node": ">=6.0.0"
-  },
-  "homepage": "https://github.com/olavim/objection-cursor#readme",
-  "repository": "https://github.com/olavim/objection-cursor",
-  "bugs": {
-    "url": "https://github.com/olavim/objection-cursor/issues"
-  },
-  "author": "Olavi Mustanoja <tilastokeskus@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^4.19.1",
-    "eslint-plugin-mocha": "^5.0.0",
-    "knex": "^0.15.0",
-    "mocha": "^5.2.0",
-    "objection": "^0.9.4",
-    "pg": "^7.4.3",
-    "sqlite3": "^4.0.1"
-  },
-  "dependencies": {
-    "base64url": "^3.0.0",
-    "lodash": "^4.17.10",
-    "moment": "^2.24.0",
-    "mysql": "^2.17.1"
-  },
-  "peerDependencies": {
-    "objection": ">=0.8"
-  },
-  "keywords": [
-    "objection",
-    "plugin",
-    "sql",
-    "mysql",
-    "sqlite3",
-    "cursor",
-    "pagination"
-  ]
+	"name": "objection-cursor",
+	"version": "1.0.0",
+	"description": "Cursor based pagination plugin for Objection.js",
+	"main": "main.js",
+	"scripts": {
+		"test": "mocha",
+		"lint": "eslint --fix \"index.js\" \"serialize.js\" \"test/**/*.js\"",
+		"release": "standard-version",
+		"prerelease": "standard-version --prerelease alpha"
+	},
+	"engines": {
+		"node": ">=6.0.0"
+	},
+	"homepage": "https://github.com/olavim/objection-cursor#readme",
+	"repository": "https://github.com/olavim/objection-cursor",
+	"bugs": {
+		"url": "https://github.com/olavim/objection-cursor/issues"
+	},
+	"author": "Olavi Mustanoja <tilastokeskus@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"eslint": "^4.19.1",
+		"eslint-plugin-mocha": "^5.0.0",
+		"knex": "^0.20.3",
+		"mocha": "^5.2.0",
+		"objection": "^0.9.4",
+		"pg": "^7.4.3",
+		"sqlite3": "^4.0.1"
+	},
+	"dependencies": {
+		"base64url": "^3.0.0",
+		"lodash": "^4.17.10",
+		"moment": "^2.24.0",
+		"mysql": "^2.17.1"
+	},
+	"peerDependencies": {
+		"objection": ">=0.8"
+	},
+	"keywords": [
+		"objection",
+		"plugin",
+		"sql",
+		"mysql",
+		"sqlite3",
+		"cursor",
+		"pagination"
+	]
 }
